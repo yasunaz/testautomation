@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Innovation Agile Tests">
+
+    <!-- Registered Test Listener -->
+    <listeners>
+        <listener class-name="utility.TestListener"/>
+    </listeners>
+
+
+    <!-- Automated Tests -->
+    <test name="Smoke">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Regression">
+        <classes>
+            <class name="tests.SignOutTest"/>
+        </classes>
+    </test>
+
+    <test name="All">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.SignOutTest"/>
+        </classes>
+    </test>
+
+</suite>

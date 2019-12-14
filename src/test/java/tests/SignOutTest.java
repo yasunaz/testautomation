@@ -7,17 +7,17 @@ public class SignOutTest {
 
    @Test
    public void test10() {
-      
+      System.out.println("Regression: test10()");
    }
 
    @Test
    public void test20() {
-
+      System.out.println("Regression: test20()");
    }
 
 
    @Test
    public void test30() {
-
+      System.out.println("Regression: test30()");
    }
 }

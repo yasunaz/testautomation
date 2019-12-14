@@ -7,7 +7,6 @@
         <listener class-name="utility.TestListener"/>
     </listeners>
 
-
     <!-- Automated Tests -->
     <test name="Smoke">
         <classes>

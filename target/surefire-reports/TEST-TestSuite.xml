@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.752" tests="6" errors="0" skipped="1" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.906" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,13 +18,13 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\nijat\AppData\Local\Temp\surefire1011535082549193019\surefirebooter1517211671740212369.jar C:\Users\nijat\AppData\Local\Temp\surefire1011535082549193019 2019-12-11T00-01-55_645-jvmRun1 surefire2478070451304774475tmp surefire_01088534935310553371tmp"/>
+    <property name="sun.java.command" value="C:\Users\nijat\AppData\Local\Temp\surefire3062335736580012355\surefirebooter8527178105714437308.jar C:\Users\nijat\AppData\Local\Temp\surefire3062335736580012355 2019-12-14T10-57-22_564-jvmRun1 surefire6916196331736759369tmp surefire_04046823282315333002tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\nijat\IdeaProjects\testautomation\target\test-classes;C:\Users\nijat\IdeaProjects\testautomation\target\classes;C:\Users\nijat\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\nijat\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nijat\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nijat\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\nijat\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\nijat\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\nijat\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\nijat\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\nijat\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\nijat\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\nijat\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nijat\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nijat\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\nijat\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\nijat\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\nijat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\nijat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\nijat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\nijat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\nijat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\nijat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\nijat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\nijat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\nijat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\nijat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\nijat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nijat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nijat\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\nijat\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nijat\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nijat\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nijat\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nijat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nijat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\nijat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\nijat\.m2\repository\com\aventstack\extentreports\3.0.0\extentreports-3.0.0.jar;C:\Users\nijat\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\nijat\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\nijat\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\nijat\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\nijat\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\nijat"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="testname" value="All"/>
+    <property name="testname" value="Regression"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
     <property name="basedir" value="C:\Users\nijat\IdeaProjects\testautomation"/>
     <property name="file.separator" value="\"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\nijat\AppData\Local\Temp\surefire1011535082549193019\surefirebooter1517211671740212369.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nijat\AppData\Local\Temp\surefire3062335736580012355\surefirebooter8527178105714437308.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,24 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test1" classname="tests.LoginTest" time="0.068">
-    <failure message="expected [2] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2] but found [1]
-	at tests.LoginTest.test1(LoginTest.java:10)
-</failure>
-  </testcase>
-  <testcase name="test2" classname="tests.LoginTest" time="0">
-    <failure message="expected [2] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2] but found [1]
-	at tests.LoginTest.test2(LoginTest.java:15)
-</failure>
-  </testcase>
-  <testcase name="test3" classname="tests.LoginTest" time="0.001">
-    <failure message="expected [2] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2] but found [1]
-	at tests.LoginTest.test3(LoginTest.java:21)
-</failure>
-  </testcase>
-  <testcase name="test10" classname="tests.SignOutTest" time="0">
-    <skipped message="This Test Case is skipped, because it found a falut"/>
-  </testcase>
-  <testcase name="test20" classname="tests.SignOutTest" time="0.002"/>
-  <testcase name="test30" classname="tests.SignOutTest" time="0.001"/>
+  <testcase name="test10" classname="tests.SignOutTest" time="0.021"/>
+  <testcase name="test20" classname="tests.SignOutTest" time="0.001"/>
+  <testcase name="test30" classname="tests.SignOutTest" time="0.003"/>
 </testsuite>

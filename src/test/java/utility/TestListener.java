@@ -12,6 +12,8 @@ import org.testng.ITestResult;
 
 public class TestListener implements ITestListener {
 
+   // These are private fields that is responsible
+   // for holding report creatinog object
    private ExtentReports extent;             // desk
    private ExtentHtmlReporter htmlReporter;  // paper
    private ExtentTest test;                  // pen

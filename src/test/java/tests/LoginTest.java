@@ -12,6 +12,7 @@ public class LoginTest {
 
    @Test
    public void test2() {
+      System.out.println("Git are you spying on me?");
       Assert.assertEquals(1, 2);
    }
 
